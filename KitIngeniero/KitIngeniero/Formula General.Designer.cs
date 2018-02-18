@@ -41,6 +41,10 @@
             this.lblX1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -221,7 +225,7 @@
             this.lblX2.AutoSize = true;
             this.lblX2.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblX2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.lblX2.Location = new System.Drawing.Point(254, 323);
+            this.lblX2.Location = new System.Drawing.Point(236, 9);
             this.lblX2.Name = "lblX2";
             this.lblX2.Size = new System.Drawing.Size(16, 18);
             this.lblX2.TabIndex = 44;
@@ -232,7 +236,7 @@
             this.lblX1.AutoSize = true;
             this.lblX1.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblX1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.lblX1.Location = new System.Drawing.Point(121, 323);
+            this.lblX1.Location = new System.Drawing.Point(101, 9);
             this.lblX1.Name = "lblX1";
             this.lblX1.Size = new System.Drawing.Size(22, 18);
             this.lblX1.TabIndex = 43;
@@ -243,7 +247,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(213, 323);
+            this.label5.Location = new System.Drawing.Point(195, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 18);
             this.label5.TabIndex = 42;
@@ -254,21 +258,56 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(84, 323);
+            this.label6.Location = new System.Drawing.Point(64, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 18);
             this.label6.TabIndex = 41;
             this.label6.Text = "X1 =";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.label8.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(8, 286);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(69, 18);
+            this.label8.TabIndex = 60;
+            this.label8.Text = "Resultado:";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
+            this.panel1.Controls.Add(this.lblX2);
+            this.panel1.Controls.Add(this.lblX1);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Location = new System.Drawing.Point(8, 307);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(337, 35);
+            this.panel1.TabIndex = 59;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.label9.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(69)))), ((int)(((byte)(52)))));
+            this.label9.Location = new System.Drawing.Point(150, 354);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 18);
+            this.label9.TabIndex = 61;
+            this.label9.Text = "ERROR";
             // 
             // Formula_General
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.Controls.Add(this.lblX2);
-            this.Controls.Add(this.lblX1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -280,6 +319,8 @@
             this.Controls.Add(this.label2);
             this.Name = "Formula_General";
             this.Size = new System.Drawing.Size(359, 397);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -300,5 +341,8 @@
         private System.Windows.Forms.Label lblX1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label9;
     }
 }
