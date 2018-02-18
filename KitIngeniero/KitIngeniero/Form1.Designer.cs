@@ -41,15 +41,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnConvUnid = new Controles.Button();
             this.header = new System.Windows.Forms.Panel();
-            this.gauss_Jordan1 = new KitIngeniero.Gauss_Jordan();
             this.label6 = new System.Windows.Forms.Label();
+            this.conversion_de_Unidades1 = new KitIngeniero.Conversion_de_Unidades();
             this.footer.SuspendLayout();
             this.header.SuspendLayout();
             this.SuspendLayout();
             // 
             // footer
             // 
-            this.footer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
+            this.footer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
             this.footer.Controls.Add(this.label5);
             this.footer.Controls.Add(this.btnUnidFisic);
             this.footer.Controls.Add(this.label4);
@@ -189,24 +189,25 @@
             this.header.Size = new System.Drawing.Size(359, 45);
             this.header.TabIndex = 1;
             // 
-            // gauss_Jordan1
-            // 
-            this.gauss_Jordan1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.gauss_Jordan1.Location = new System.Drawing.Point(0, 44);
-            this.gauss_Jordan1.Name = "gauss_Jordan1";
-            this.gauss_Jordan1.Size = new System.Drawing.Size(359, 397);
-            this.gauss_Jordan1.TabIndex = 2;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(89, 11);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(161)))), ((int)(((byte)(39)))));
+            this.label6.Location = new System.Drawing.Point(89, 10);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(180, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "Kit básico de Ingeniería";
+            // 
+            // conversion_de_Unidades1
+            // 
+            this.conversion_de_Unidades1.AutoScroll = true;
+            this.conversion_de_Unidades1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.conversion_de_Unidades1.Location = new System.Drawing.Point(0, 44);
+            this.conversion_de_Unidades1.Name = "conversion_de_Unidades1";
+            this.conversion_de_Unidades1.Size = new System.Drawing.Size(359, 397);
+            this.conversion_de_Unidades1.TabIndex = 2;
             // 
             // home
             // 
@@ -214,7 +215,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(359, 500);
-            this.Controls.Add(this.gauss_Jordan1);
+            this.Controls.Add(this.conversion_de_Unidades1);
             this.Controls.Add(this.header);
             this.Controls.Add(this.footer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -244,8 +245,8 @@
         private Controles.Button btnFrmGene;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel header;
-        private Gauss_Jordan gauss_Jordan1;
         private System.Windows.Forms.Label label6;
+        private Conversion_de_Unidades conversion_de_Unidades1;
     }
 }
 

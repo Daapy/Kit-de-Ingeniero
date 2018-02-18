@@ -35,3 +35,5 @@ C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\D
 C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.csproj.GenerateResource.Cache
 C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
 C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
+C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Conversion_de_Unidades.resources
+C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Fisica.resources

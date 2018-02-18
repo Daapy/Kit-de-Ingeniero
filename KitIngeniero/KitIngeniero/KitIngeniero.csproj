@@ -58,6 +58,18 @@
     <Compile Include="Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conversion de Unidades.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Conversion de Unidades.Designer.cs">
+      <DependentUpon>Conversion de Unidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fisica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Fisica.Designer.cs">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conversion de Unidades.resx">
+      <DependentUpon>Conversion de Unidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fisica.resx">
+      <DependentUpon>Fisica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
