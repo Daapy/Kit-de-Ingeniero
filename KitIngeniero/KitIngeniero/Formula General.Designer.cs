@@ -187,7 +187,7 @@
             this.btnResolver.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnResolver.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
             this.btnResolver.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResolver.Click += new System.EventHandler(this.btnResvrMatriz_Click);
+            this.btnResolver.Click += new System.EventHandler(this.btnResolver_Click);
             // 
             // label1
             // 
