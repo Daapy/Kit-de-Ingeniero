@@ -134,6 +134,7 @@
             this.btnLimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLimpiar.Textcolor = System.Drawing.Color.White;
             this.btnLimpiar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnConvA
             // 
@@ -656,6 +657,7 @@
             this.btnPieA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnPieA.Textcolor = System.Drawing.Color.White;
             this.btnPieA.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPieA.Click += new System.EventHandler(this.btnPieA_Click);
             // 
             // btnYardaA
             // 
@@ -693,6 +695,7 @@
             this.btnYardaA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnYardaA.Textcolor = System.Drawing.Color.White;
             this.btnYardaA.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnYardaA.Click += new System.EventHandler(this.btnYardaA_Click);
             // 
             // btnKilotroA
             // 
@@ -730,6 +733,7 @@
             this.btnKilotroA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnKilotroA.Textcolor = System.Drawing.Color.White;
             this.btnKilotroA.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKilotroA.Click += new System.EventHandler(this.btnKilotroA_Click);
             // 
             // label5
             // 
@@ -1025,6 +1029,7 @@
             this.btnFahrA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnFahrA.Textcolor = System.Drawing.Color.White;
             this.btnFahrA.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFahrA.Click += new System.EventHandler(this.btnFahrA_Click);
             // 
             // btnKelA
             // 
@@ -1062,6 +1067,7 @@
             this.btnKelA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnKelA.Textcolor = System.Drawing.Color.White;
             this.btnKelA.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKelA.Click += new System.EventHandler(this.btnKelA_Click);
             // 
             // btnCentA
             // 
@@ -1099,6 +1105,7 @@
             this.btnCentA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnCentA.Textcolor = System.Drawing.Color.White;
             this.btnCentA.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCentA.Click += new System.EventHandler(this.btnCentA_Click);
             // 
             // label13
             // 
@@ -1219,6 +1226,7 @@
             this.bunifuFlatButton13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton13.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton13.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton13.Click += new System.EventHandler(this.bunifuFlatButton13_Click);
             // 
             // btnConvB
             // 
@@ -1255,6 +1263,7 @@
             this.btnConvB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnConvB.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
             this.btnConvB.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvB.Click += new System.EventHandler(this.btnConvB_Click);
             // 
             // bunifuFlatButton21
             // 
@@ -1291,6 +1300,7 @@
             this.bunifuFlatButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton21.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton21.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton21.Click += new System.EventHandler(this.bunifuFlatButton21_Click);
             // 
             // btnConvC
             // 
@@ -1327,6 +1337,7 @@
             this.btnConvC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnConvC.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
             this.btnConvC.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvC.Click += new System.EventHandler(this.btnConvC_Click);
             // 
             // Conversion_de_Unidades
             // 
