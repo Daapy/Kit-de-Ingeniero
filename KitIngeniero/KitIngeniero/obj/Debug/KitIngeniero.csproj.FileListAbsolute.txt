@@ -51,3 +51,6 @@ C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\D
 C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Gauss_Jordan.resources
 C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Properties.Resources.resources
 C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.csproj.GenerateResource.Cache
+C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe.config
+C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
+C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
