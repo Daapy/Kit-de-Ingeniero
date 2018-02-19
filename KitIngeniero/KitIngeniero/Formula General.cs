@@ -27,19 +27,19 @@ namespace KitIngeniero
             try
             {
                 // Variables locales
-                double a = Convert.ToDouble(bunifuMaterialTextbox1.Text);
-                double b = Convert.ToDouble(bunifuMaterialTextbox2.Text);
-                double c = Convert.ToDouble(bunifuMaterialTextbox3.Text);
+                double a = Convert.ToDouble(textA.Text);
+                double b = Convert.ToDouble(textB.Text);
+                double c = Convert.ToDouble(textC.Text);
                 //Llamada del metodo
                 double[] x = FG.calcularFG(a, b, c);
                 // Muestra los resultados
                 lblX1.Text = x[0].ToString();
                 lblX2.Text = x[1].ToString();
-                label9.Text = "";
+                lblError.Text = "";
             }
             catch (Exception)
             {
-                label9.Text = "ERROR";
+                lblError.Text = "ERROR";
             }
         }
 
@@ -50,10 +50,10 @@ namespace KitIngeniero
         {
             lblX1.Text = "";
             lblX2.Text = "";
-            bunifuMaterialTextbox1.Text = "";
-            bunifuMaterialTextbox2.Text = "";
-            bunifuMaterialTextbox3.Text = "";
-            label9.Text = "";
+            textA.Text = "";
+            textB.Text = "";
+            textC.Text = "";
+            lblError.Text = "";
         }
         #endregion
 

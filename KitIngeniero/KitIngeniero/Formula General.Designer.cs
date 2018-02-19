@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.textA = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.textB = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.textC = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.btnLimpiar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnResvrMatriz = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnResolver = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,7 +43,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblError = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,62 +58,62 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "Formula General";
             // 
-            // bunifuMaterialTextbox1
+            // textA
             // 
-            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox1.HintText = "";
-            this.bunifuMaterialTextbox1.isPassword = false;
-            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.bunifuMaterialTextbox1.LineThickness = 1;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(11, 118);
-            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
-            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(98, 35);
-            this.bunifuMaterialTextbox1.TabIndex = 23;
-            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textA.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textA.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.textA.HintForeColor = System.Drawing.Color.Empty;
+            this.textA.HintText = "";
+            this.textA.isPassword = false;
+            this.textA.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.textA.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textA.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.textA.LineThickness = 1;
+            this.textA.Location = new System.Drawing.Point(11, 118);
+            this.textA.Margin = new System.Windows.Forms.Padding(4);
+            this.textA.Name = "textA";
+            this.textA.Size = new System.Drawing.Size(98, 35);
+            this.textA.TabIndex = 23;
+            this.textA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMaterialTextbox2
+            // textB
             // 
-            this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox2.HintText = "";
-            this.bunifuMaterialTextbox2.isPassword = false;
-            this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.bunifuMaterialTextbox2.LineThickness = 1;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(128, 118);
-            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
-            this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(98, 35);
-            this.bunifuMaterialTextbox2.TabIndex = 34;
-            this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textB.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textB.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.textB.HintForeColor = System.Drawing.Color.Empty;
+            this.textB.HintText = "";
+            this.textB.isPassword = false;
+            this.textB.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.textB.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textB.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.textB.LineThickness = 1;
+            this.textB.Location = new System.Drawing.Point(128, 118);
+            this.textB.Margin = new System.Windows.Forms.Padding(4);
+            this.textB.Name = "textB";
+            this.textB.Size = new System.Drawing.Size(98, 35);
+            this.textB.TabIndex = 34;
+            this.textB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMaterialTextbox3
+            // textC
             // 
-            this.bunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMaterialTextbox3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuMaterialTextbox3.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox3.HintText = "";
-            this.bunifuMaterialTextbox3.isPassword = false;
-            this.bunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.bunifuMaterialTextbox3.LineThickness = 1;
-            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(249, 118);
-            this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
-            this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(98, 35);
-            this.bunifuMaterialTextbox3.TabIndex = 35;
-            this.bunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textC.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textC.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.textC.HintForeColor = System.Drawing.Color.Empty;
+            this.textC.HintText = "";
+            this.textC.isPassword = false;
+            this.textC.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.textC.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textC.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.textC.LineThickness = 1;
+            this.textC.Location = new System.Drawing.Point(249, 118);
+            this.textC.Margin = new System.Windows.Forms.Padding(4);
+            this.textC.Name = "textC";
+            this.textC.Size = new System.Drawing.Size(98, 35);
+            this.textC.TabIndex = 35;
+            this.textC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnLimpiar
             // 
@@ -152,42 +152,42 @@
             this.btnLimpiar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
-            // btnResvrMatriz
+            // btnResolver
             // 
-            this.btnResvrMatriz.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
-            this.btnResvrMatriz.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.btnResvrMatriz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnResvrMatriz.BorderRadius = 0;
-            this.btnResvrMatriz.ButtonText = "Resolver";
-            this.btnResvrMatriz.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnResvrMatriz.DisabledColor = System.Drawing.Color.Gray;
-            this.btnResvrMatriz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResvrMatriz.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnResvrMatriz.Iconimage = null;
-            this.btnResvrMatriz.Iconimage_right = null;
-            this.btnResvrMatriz.Iconimage_right_Selected = null;
-            this.btnResvrMatriz.Iconimage_Selected = null;
-            this.btnResvrMatriz.IconMarginLeft = 0;
-            this.btnResvrMatriz.IconMarginRight = 0;
-            this.btnResvrMatriz.IconRightVisible = true;
-            this.btnResvrMatriz.IconRightZoom = 0D;
-            this.btnResvrMatriz.IconVisible = true;
-            this.btnResvrMatriz.IconZoom = 90D;
-            this.btnResvrMatriz.IsTab = false;
-            this.btnResvrMatriz.Location = new System.Drawing.Point(10, 183);
-            this.btnResvrMatriz.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnResvrMatriz.Name = "btnResvrMatriz";
-            this.btnResvrMatriz.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
-            this.btnResvrMatriz.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
-            this.btnResvrMatriz.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
-            this.btnResvrMatriz.selected = false;
-            this.btnResvrMatriz.Size = new System.Drawing.Size(337, 41);
-            this.btnResvrMatriz.TabIndex = 36;
-            this.btnResvrMatriz.Text = "Resolver";
-            this.btnResvrMatriz.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnResvrMatriz.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
-            this.btnResvrMatriz.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResvrMatriz.Click += new System.EventHandler(this.btnResvrMatriz_Click);
+            this.btnResolver.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
+            this.btnResolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.btnResolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnResolver.BorderRadius = 0;
+            this.btnResolver.ButtonText = "Resolver";
+            this.btnResolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnResolver.DisabledColor = System.Drawing.Color.Gray;
+            this.btnResolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResolver.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnResolver.Iconimage = null;
+            this.btnResolver.Iconimage_right = null;
+            this.btnResolver.Iconimage_right_Selected = null;
+            this.btnResolver.Iconimage_Selected = null;
+            this.btnResolver.IconMarginLeft = 0;
+            this.btnResolver.IconMarginRight = 0;
+            this.btnResolver.IconRightVisible = true;
+            this.btnResolver.IconRightZoom = 0D;
+            this.btnResolver.IconVisible = true;
+            this.btnResolver.IconZoom = 90D;
+            this.btnResolver.IsTab = false;
+            this.btnResolver.Location = new System.Drawing.Point(10, 183);
+            this.btnResolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnResolver.Name = "btnResolver";
+            this.btnResolver.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.btnResolver.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
+            this.btnResolver.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
+            this.btnResolver.selected = false;
+            this.btnResolver.Size = new System.Drawing.Size(337, 41);
+            this.btnResolver.TabIndex = 36;
+            this.btnResolver.Text = "Resolver";
+            this.btnResolver.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnResolver.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
+            this.btnResolver.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResolver.Click += new System.EventHandler(this.btnResvrMatriz_Click);
             // 
             // label1
             // 
@@ -290,33 +290,33 @@
             this.panel1.Size = new System.Drawing.Size(337, 35);
             this.panel1.TabIndex = 59;
             // 
-            // label9
+            // lblError
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(69)))), ((int)(((byte)(52)))));
-            this.label9.Location = new System.Drawing.Point(150, 354);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(0, 16);
-            this.label9.TabIndex = 61;
+            this.lblError.AutoSize = true;
+            this.lblError.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(69)))), ((int)(((byte)(52)))));
+            this.lblError.Location = new System.Drawing.Point(150, 354);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(0, 16);
+            this.lblError.TabIndex = 61;
             // 
             // Formula_General
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblError);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.btnResvrMatriz);
-            this.Controls.Add(this.bunifuMaterialTextbox3);
-            this.Controls.Add(this.bunifuMaterialTextbox2);
-            this.Controls.Add(this.bunifuMaterialTextbox1);
+            this.Controls.Add(this.btnResolver);
+            this.Controls.Add(this.textC);
+            this.Controls.Add(this.textB);
+            this.Controls.Add(this.textA);
             this.Controls.Add(this.label2);
             this.Name = "Formula_General";
             this.Size = new System.Drawing.Size(359, 397);
@@ -330,11 +330,11 @@
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox textA;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox textB;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox textC;
         private Bunifu.Framework.UI.BunifuFlatButton btnLimpiar;
-        private Bunifu.Framework.UI.BunifuFlatButton btnResvrMatriz;
+        private Bunifu.Framework.UI.BunifuFlatButton btnResolver;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -344,6 +344,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblError;
     }
 }
