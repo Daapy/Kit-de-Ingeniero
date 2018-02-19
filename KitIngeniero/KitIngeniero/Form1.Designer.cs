@@ -85,6 +85,8 @@
             this.btnFisica.TabIndex = 10;
             this.btnFisica.TabStop = false;
             this.btnFisica.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.btnFisica.MouseLeave += new System.EventHandler(this.btnFisica_MouseLeave);
+            this.btnFisica.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnFisica_MouseMove);
             // 
             // btnFormGene
             // 
@@ -96,6 +98,8 @@
             this.btnFormGene.TabIndex = 8;
             this.btnFormGene.TabStop = false;
             this.btnFormGene.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.btnFormGene.MouseLeave += new System.EventHandler(this.btnFormGene_MouseLeave);
+            this.btnFormGene.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnFormGene_MouseMove);
             // 
             // btnCalculadora
             // 
@@ -107,10 +111,12 @@
             this.btnCalculadora.TabIndex = 9;
             this.btnCalculadora.TabStop = false;
             this.btnCalculadora.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.btnCalculadora.MouseLeave += new System.EventHandler(this.btnCalculadora_MouseLeave);
+            this.btnCalculadora.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnCalculadora_MouseMove);
             // 
             // btnConvertUnid
             // 
-            this.btnConvertUnid.Image = ((System.Drawing.Image)(resources.GetObject("btnConvertUnid.Image")));
+            this.btnConvertUnid.Image = global::KitIngeniero.Properties.Resources.imgUnidadesBlanca;
             this.btnConvertUnid.Location = new System.Drawing.Point(31, 8);
             this.btnConvertUnid.Name = "btnConvertUnid";
             this.btnConvertUnid.Size = new System.Drawing.Size(28, 28);
@@ -118,6 +124,8 @@
             this.btnConvertUnid.TabIndex = 7;
             this.btnConvertUnid.TabStop = false;
             this.btnConvertUnid.Click += new System.EventHandler(this.btn_Click);
+            this.btnConvertUnid.MouseLeave += new System.EventHandler(this.btnConvertUnid_MouseLeave);
+            this.btnConvertUnid.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnConvertUnid_MouseMove);
             // 
             // btnGaussJordan
             // 
@@ -129,6 +137,8 @@
             this.btnGaussJordan.TabIndex = 8;
             this.btnGaussJordan.TabStop = false;
             this.btnGaussJordan.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.btnGaussJordan.MouseLeave += new System.EventHandler(this.btnGaussJordan_MouseLeave);
+            this.btnGaussJordan.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnGaussJordan_MouseMove);
             // 
             // lblFisica
             // 
@@ -141,7 +151,6 @@
             this.lblFisica.Size = new System.Drawing.Size(35, 15);
             this.lblFisica.TabIndex = 8;
             this.lblFisica.Text = "Física";
-            this.lblFisica.Click += new System.EventHandler(this.label5_Click);
             // 
             // lblCalculadora
             // 
@@ -166,7 +175,6 @@
             this.lblGaussJordan.Size = new System.Drawing.Size(53, 15);
             this.lblGaussJordan.TabIndex = 4;
             this.lblGaussJordan.Text = "G. Jordan";
-            this.lblGaussJordan.Click += new System.EventHandler(this.label3_Click);
             // 
             // lblFormGene
             // 

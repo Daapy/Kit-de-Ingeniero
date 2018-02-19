@@ -191,5 +191,35 @@
   <ItemGroup>
     <None Include="Resources\imgUnidadesNaranja1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCalculadoraNaranaja2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCalculadoraBlanca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFIsicaBlanca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFIsicaNaranja2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFormulaBlanca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFormulaNaranja2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgGaussBlanca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgGaussNaranja2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUnidadesBlanca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUnidadesNaranja2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

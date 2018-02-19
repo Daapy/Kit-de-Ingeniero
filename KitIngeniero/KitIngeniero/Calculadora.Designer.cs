@@ -208,7 +208,7 @@
             // 
             this.btnLimpiarError.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(99)))), ((int)(((byte)(110)))));
             this.btnLimpiarError.color = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(99)))), ((int)(((byte)(110)))));
-            this.btnLimpiarError.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
+            this.btnLimpiarError.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(69)))), ((int)(((byte)(52)))));
             this.btnLimpiarError.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiarError.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiarError.ForeColor = System.Drawing.Color.White;
