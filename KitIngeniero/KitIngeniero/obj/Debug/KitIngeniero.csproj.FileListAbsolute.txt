@@ -54,3 +54,6 @@ C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\D
 C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe.config
 C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
 C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
+C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe.config
+C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
+C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
