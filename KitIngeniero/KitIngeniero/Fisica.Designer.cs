@@ -69,7 +69,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
-            this.label6.Location = new System.Drawing.Point(5, 37);
+            this.label6.Location = new System.Drawing.Point(12, 37);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 20);
             this.label6.TabIndex = 97;
@@ -97,7 +97,7 @@
             this.btnLimpiar.IconVisible = true;
             this.btnLimpiar.IconZoom = 90D;
             this.btnLimpiar.IsTab = false;
-            this.btnLimpiar.Location = new System.Drawing.Point(9, 132);
+            this.btnLimpiar.Location = new System.Drawing.Point(16, 132);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
@@ -133,7 +133,7 @@
             this.btnResvrMatriz.IconVisible = true;
             this.btnResvrMatriz.IconZoom = 90D;
             this.btnResvrMatriz.IsTab = false;
-            this.btnResvrMatriz.Location = new System.Drawing.Point(172, 132);
+            this.btnResvrMatriz.Location = new System.Drawing.Point(179, 132);
             this.btnResvrMatriz.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnResvrMatriz.Name = "btnResvrMatriz";
             this.btnResvrMatriz.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
@@ -152,7 +152,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(151, 12);
+            this.label2.Location = new System.Drawing.Point(158, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 21);
             this.label2.TabIndex = 88;
@@ -163,7 +163,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(207, 65);
+            this.label7.Location = new System.Drawing.Point(214, 65);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(66, 18);
             this.label7.TabIndex = 104;
@@ -174,7 +174,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(96, 65);
+            this.label8.Location = new System.Drawing.Point(103, 65);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 18);
             this.label8.TabIndex = 103;
@@ -185,7 +185,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(6, 65);
+            this.label4.Location = new System.Drawing.Point(13, 65);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 18);
             this.label4.TabIndex = 102;
@@ -204,7 +204,7 @@
             this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox3.LineThickness = 1;
-            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(210, 87);
+            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(217, 87);
             this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
             this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(121, 35);
@@ -223,7 +223,7 @@
             this.bunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox4.LineThickness = 1;
-            this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(99, 87);
+            this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(106, 87);
             this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox4.Name = "bunifuMaterialTextbox4";
             this.bunifuMaterialTextbox4.Size = new System.Drawing.Size(82, 35);
@@ -242,7 +242,7 @@
             this.bunifuMaterialTextbox5.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox5.LineThickness = 1;
-            this.bunifuMaterialTextbox5.Location = new System.Drawing.Point(9, 87);
+            this.bunifuMaterialTextbox5.Location = new System.Drawing.Point(16, 87);
             this.bunifuMaterialTextbox5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox5.Name = "bunifuMaterialTextbox5";
             this.bunifuMaterialTextbox5.Size = new System.Drawing.Size(82, 35);
@@ -254,7 +254,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(186, 94);
+            this.label1.Location = new System.Drawing.Point(193, 94);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 21);
             this.label1.TabIndex = 105;
@@ -266,7 +266,7 @@
             this.bunifuSeparator1.ForeColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(9, 183);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(16, 183);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(324, 20);
             this.bunifuSeparator1.TabIndex = 106;
@@ -278,7 +278,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(186, 268);
+            this.label3.Location = new System.Drawing.Point(193, 268);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(20, 21);
             this.label3.TabIndex = 116;
@@ -289,7 +289,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(207, 239);
+            this.label5.Location = new System.Drawing.Point(214, 239);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 18);
             this.label5.TabIndex = 115;
@@ -300,7 +300,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(96, 239);
+            this.label9.Location = new System.Drawing.Point(103, 239);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(65, 18);
             this.label9.TabIndex = 114;
@@ -311,7 +311,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(6, 239);
+            this.label10.Location = new System.Drawing.Point(13, 239);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(61, 18);
             this.label10.TabIndex = 113;
@@ -330,7 +330,7 @@
             this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox1.LineThickness = 1;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(210, 261);
+            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(217, 261);
             this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
             this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(121, 35);
@@ -349,7 +349,7 @@
             this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox2.LineThickness = 1;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(99, 261);
+            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(106, 261);
             this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
             this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(82, 35);
@@ -368,7 +368,7 @@
             this.bunifuMaterialTextbox6.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuMaterialTextbox6.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox6.LineThickness = 1;
-            this.bunifuMaterialTextbox6.Location = new System.Drawing.Point(9, 261);
+            this.bunifuMaterialTextbox6.Location = new System.Drawing.Point(16, 261);
             this.bunifuMaterialTextbox6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox6.Name = "bunifuMaterialTextbox6";
             this.bunifuMaterialTextbox6.Size = new System.Drawing.Size(82, 35);
@@ -380,7 +380,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
-            this.label11.Location = new System.Drawing.Point(5, 211);
+            this.label11.Location = new System.Drawing.Point(12, 211);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(61, 20);
             this.label11.TabIndex = 109;
@@ -408,7 +408,7 @@
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(9, 306);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(16, 306);
             this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
@@ -444,7 +444,7 @@
             this.bunifuFlatButton2.IconVisible = true;
             this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(172, 306);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(179, 306);
             this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
@@ -463,7 +463,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(187, 451);
+            this.label12.Location = new System.Drawing.Point(194, 451);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(20, 21);
             this.label12.TabIndex = 127;
@@ -474,7 +474,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(208, 422);
+            this.label13.Location = new System.Drawing.Point(215, 422);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(66, 18);
             this.label13.TabIndex = 126;
@@ -485,7 +485,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(97, 422);
+            this.label14.Location = new System.Drawing.Point(104, 422);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(52, 18);
             this.label14.TabIndex = 125;
@@ -496,7 +496,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Nunito", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(7, 422);
+            this.label15.Location = new System.Drawing.Point(14, 422);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(61, 18);
             this.label15.TabIndex = 124;
@@ -515,7 +515,7 @@
             this.bunifuMaterialTextbox7.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox7.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox7.LineThickness = 1;
-            this.bunifuMaterialTextbox7.Location = new System.Drawing.Point(211, 444);
+            this.bunifuMaterialTextbox7.Location = new System.Drawing.Point(218, 444);
             this.bunifuMaterialTextbox7.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox7.Name = "bunifuMaterialTextbox7";
             this.bunifuMaterialTextbox7.Size = new System.Drawing.Size(121, 35);
@@ -534,7 +534,7 @@
             this.bunifuMaterialTextbox8.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuMaterialTextbox8.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox8.LineThickness = 1;
-            this.bunifuMaterialTextbox8.Location = new System.Drawing.Point(100, 444);
+            this.bunifuMaterialTextbox8.Location = new System.Drawing.Point(107, 444);
             this.bunifuMaterialTextbox8.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox8.Name = "bunifuMaterialTextbox8";
             this.bunifuMaterialTextbox8.Size = new System.Drawing.Size(82, 35);
@@ -553,7 +553,7 @@
             this.bunifuMaterialTextbox9.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuMaterialTextbox9.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
             this.bunifuMaterialTextbox9.LineThickness = 1;
-            this.bunifuMaterialTextbox9.Location = new System.Drawing.Point(10, 444);
+            this.bunifuMaterialTextbox9.Location = new System.Drawing.Point(17, 444);
             this.bunifuMaterialTextbox9.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox9.Name = "bunifuMaterialTextbox9";
             this.bunifuMaterialTextbox9.Size = new System.Drawing.Size(82, 35);
@@ -565,7 +565,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(162)))), ((int)(((byte)(31)))));
-            this.label16.Location = new System.Drawing.Point(6, 394);
+            this.label16.Location = new System.Drawing.Point(13, 394);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(77, 20);
             this.label16.TabIndex = 120;
@@ -593,7 +593,7 @@
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(10, 489);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(17, 489);
             this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(52)))), ((int)(((byte)(60)))));
@@ -629,7 +629,7 @@
             this.bunifuFlatButton4.IconVisible = true;
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(173, 489);
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(180, 489);
             this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(182)))), ((int)(((byte)(51)))));
@@ -649,7 +649,7 @@
             this.bunifuSeparator2.ForeColor = System.Drawing.Color.Silver;
             this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.bunifuSeparator2.LineThickness = 1;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(10, 366);
+            this.bunifuSeparator2.Location = new System.Drawing.Point(21, 366);
             this.bunifuSeparator2.Name = "bunifuSeparator2";
             this.bunifuSeparator2.Size = new System.Drawing.Size(324, 20);
             this.bunifuSeparator2.TabIndex = 117;
@@ -661,7 +661,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel7.Location = new System.Drawing.Point(0, 526);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(342, 23);
+            this.panel7.Size = new System.Drawing.Size(345, 23);
             this.panel7.TabIndex = 128;
             // 
             // Fisica
@@ -705,7 +705,7 @@
             this.Controls.Add(this.btnResvrMatriz);
             this.Controls.Add(this.label2);
             this.Name = "Fisica";
-            this.Size = new System.Drawing.Size(359, 397);
+            this.Size = new System.Drawing.Size(342, 380);
             this.ResumeLayout(false);
             this.PerformLayout();
 

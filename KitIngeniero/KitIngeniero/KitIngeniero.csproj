@@ -110,17 +110,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -129,6 +130,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCalculadoraBlanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCalculadoraNaranaja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFIsicaBlanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFIsicaNaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFormulaBlanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFormulaNaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgGaussBlanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgGaussNaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUnidadesBlanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUnidadesNaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCalculadoraBlanca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCalculadoraNaranaja1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFIsicaBlanca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFIsicaNaranja1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFormulaBlanca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFormulaNaranja1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgGaussBlanca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgGaussNaranja1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUnidadesBlanca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUnidadesNaranja1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

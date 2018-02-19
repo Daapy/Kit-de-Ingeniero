@@ -30,154 +30,167 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home));
             this.footer = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnUnidFisic = new Controles.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnCalculadora = new Controles.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnGaussJordan = new Controles.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnFrmGene = new Controles.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnConvUnid = new Controles.Button();
+            this.btnFisica = new System.Windows.Forms.PictureBox();
+            this.btnFormGene = new System.Windows.Forms.PictureBox();
+            this.btnCalculadora = new System.Windows.Forms.PictureBox();
+            this.btnConvertUnid = new System.Windows.Forms.PictureBox();
+            this.btnGaussJordan = new System.Windows.Forms.PictureBox();
+            this.lblFisica = new System.Windows.Forms.Label();
+            this.lblCalculadora = new System.Windows.Forms.Label();
+            this.lblGaussJordan = new System.Windows.Forms.Label();
+            this.lblFormGene = new System.Windows.Forms.Label();
+            this.lblConvertUnid = new System.Windows.Forms.Label();
             this.header = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.conversion_de_Unidades1 = new KitIngeniero.Conversion_de_Unidades();
+            this.converUnidades = new KitIngeniero.Conversion_de_Unidades();
+            this.formGene = new KitIngeniero.Formula_General();
+            this.gaussJordan = new KitIngeniero.Gauss_Jordan();
+            this.calculadora = new KitIngeniero.Calculadora();
+            this.fisica = new KitIngeniero.Fisica();
             this.footer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFisica)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFormGene)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCalculadora)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnConvertUnid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGaussJordan)).BeginInit();
             this.header.SuspendLayout();
             this.SuspendLayout();
             // 
             // footer
             // 
             this.footer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
-            this.footer.Controls.Add(this.label5);
-            this.footer.Controls.Add(this.btnUnidFisic);
-            this.footer.Controls.Add(this.label4);
+            this.footer.Controls.Add(this.btnFisica);
+            this.footer.Controls.Add(this.btnFormGene);
             this.footer.Controls.Add(this.btnCalculadora);
-            this.footer.Controls.Add(this.label3);
+            this.footer.Controls.Add(this.btnConvertUnid);
             this.footer.Controls.Add(this.btnGaussJordan);
-            this.footer.Controls.Add(this.label2);
-            this.footer.Controls.Add(this.btnFrmGene);
-            this.footer.Controls.Add(this.label1);
-            this.footer.Controls.Add(this.btnConvUnid);
+            this.footer.Controls.Add(this.lblFisica);
+            this.footer.Controls.Add(this.lblCalculadora);
+            this.footer.Controls.Add(this.lblGaussJordan);
+            this.footer.Controls.Add(this.lblFormGene);
+            this.footer.Controls.Add(this.lblConvertUnid);
             this.footer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.footer.Location = new System.Drawing.Point(0, 442);
             this.footer.Name = "footer";
             this.footer.Size = new System.Drawing.Size(359, 58);
             this.footer.TabIndex = 0;
             // 
-            // label5
+            // btnFisica
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(296, 39);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 15);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Física";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.btnFisica.Image = ((System.Drawing.Image)(resources.GetObject("btnFisica.Image")));
+            this.btnFisica.Location = new System.Drawing.Point(299, 8);
+            this.btnFisica.Name = "btnFisica";
+            this.btnFisica.Size = new System.Drawing.Size(28, 28);
+            this.btnFisica.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFisica.TabIndex = 10;
+            this.btnFisica.TabStop = false;
+            this.btnFisica.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // btnUnidFisic
+            // btnFormGene
             // 
-            this.btnUnidFisic.BackColor = System.Drawing.Color.Transparent;
-            this.btnUnidFisic.ButtonImage = ((System.Drawing.Image)(resources.GetObject("btnUnidFisic.ButtonImage")));
-            this.btnUnidFisic.Location = new System.Drawing.Point(299, 8);
-            this.btnUnidFisic.Name = "btnUnidFisic";
-            this.btnUnidFisic.onHoverImage = ((System.Drawing.Image)(resources.GetObject("btnUnidFisic.onHoverImage")));
-            this.btnUnidFisic.Size = new System.Drawing.Size(28, 28);
-            this.btnUnidFisic.TabIndex = 9;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(214, 39);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 15);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Calculadora";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.btnFormGene.Image = ((System.Drawing.Image)(resources.GetObject("btnFormGene.Image")));
+            this.btnFormGene.Location = new System.Drawing.Point(95, 5);
+            this.btnFormGene.Name = "btnFormGene";
+            this.btnFormGene.Size = new System.Drawing.Size(35, 35);
+            this.btnFormGene.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFormGene.TabIndex = 8;
+            this.btnFormGene.TabStop = false;
+            this.btnFormGene.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // btnCalculadora
             // 
-            this.btnCalculadora.BackColor = System.Drawing.Color.Transparent;
-            this.btnCalculadora.ButtonImage = ((System.Drawing.Image)(resources.GetObject("btnCalculadora.ButtonImage")));
+            this.btnCalculadora.Image = ((System.Drawing.Image)(resources.GetObject("btnCalculadora.Image")));
             this.btnCalculadora.Location = new System.Drawing.Point(232, 8);
             this.btnCalculadora.Name = "btnCalculadora";
-            this.btnCalculadora.onHoverImage = ((System.Drawing.Image)(resources.GetObject("btnCalculadora.onHoverImage")));
             this.btnCalculadora.Size = new System.Drawing.Size(28, 28);
-            this.btnCalculadora.TabIndex = 7;
+            this.btnCalculadora.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCalculadora.TabIndex = 9;
+            this.btnCalculadora.TabStop = false;
+            this.btnCalculadora.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // label3
+            // btnConvertUnid
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(153, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "G. Jordan";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.btnConvertUnid.Image = ((System.Drawing.Image)(resources.GetObject("btnConvertUnid.Image")));
+            this.btnConvertUnid.Location = new System.Drawing.Point(31, 8);
+            this.btnConvertUnid.Name = "btnConvertUnid";
+            this.btnConvertUnid.Size = new System.Drawing.Size(28, 28);
+            this.btnConvertUnid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnConvertUnid.TabIndex = 7;
+            this.btnConvertUnid.TabStop = false;
+            this.btnConvertUnid.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnGaussJordan
             // 
-            this.btnGaussJordan.BackColor = System.Drawing.Color.Transparent;
-            this.btnGaussJordan.ButtonImage = ((System.Drawing.Image)(resources.GetObject("btnGaussJordan.ButtonImage")));
+            this.btnGaussJordan.Image = ((System.Drawing.Image)(resources.GetObject("btnGaussJordan.Image")));
             this.btnGaussJordan.Location = new System.Drawing.Point(165, 8);
             this.btnGaussJordan.Name = "btnGaussJordan";
-            this.btnGaussJordan.onHoverImage = ((System.Drawing.Image)(resources.GetObject("btnGaussJordan.onHoverImage")));
             this.btnGaussJordan.Size = new System.Drawing.Size(28, 28);
-            this.btnGaussJordan.TabIndex = 5;
+            this.btnGaussJordan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnGaussJordan.TabIndex = 8;
+            this.btnGaussJordan.TabStop = false;
+            this.btnGaussJordan.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label2
+            // lblFisica
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(83, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "F. General";
+            this.lblFisica.AutoSize = true;
+            this.lblFisica.BackColor = System.Drawing.Color.Transparent;
+            this.lblFisica.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFisica.ForeColor = System.Drawing.Color.White;
+            this.lblFisica.Location = new System.Drawing.Point(296, 39);
+            this.lblFisica.Name = "lblFisica";
+            this.lblFisica.Size = new System.Drawing.Size(35, 15);
+            this.lblFisica.TabIndex = 8;
+            this.lblFisica.Text = "Física";
+            this.lblFisica.Click += new System.EventHandler(this.label5_Click);
             // 
-            // btnFrmGene
+            // lblCalculadora
             // 
-            this.btnFrmGene.BackColor = System.Drawing.Color.Transparent;
-            this.btnFrmGene.ButtonImage = ((System.Drawing.Image)(resources.GetObject("btnFrmGene.ButtonImage")));
-            this.btnFrmGene.Location = new System.Drawing.Point(95, 5);
-            this.btnFrmGene.Name = "btnFrmGene";
-            this.btnFrmGene.onHoverImage = ((System.Drawing.Image)(resources.GetObject("btnFrmGene.onHoverImage")));
-            this.btnFrmGene.Size = new System.Drawing.Size(35, 35);
-            this.btnFrmGene.TabIndex = 3;
+            this.lblCalculadora.AutoSize = true;
+            this.lblCalculadora.BackColor = System.Drawing.Color.Transparent;
+            this.lblCalculadora.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCalculadora.ForeColor = System.Drawing.Color.White;
+            this.lblCalculadora.Location = new System.Drawing.Point(214, 39);
+            this.lblCalculadora.Name = "lblCalculadora";
+            this.lblCalculadora.Size = new System.Drawing.Size(65, 15);
+            this.lblCalculadora.TabIndex = 6;
+            this.lblCalculadora.Text = "Calculadora";
             // 
-            // label1
+            // lblGaussJordan
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(19, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Unidades";
+            this.lblGaussJordan.AutoSize = true;
+            this.lblGaussJordan.BackColor = System.Drawing.Color.Transparent;
+            this.lblGaussJordan.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGaussJordan.ForeColor = System.Drawing.Color.White;
+            this.lblGaussJordan.Location = new System.Drawing.Point(153, 39);
+            this.lblGaussJordan.Name = "lblGaussJordan";
+            this.lblGaussJordan.Size = new System.Drawing.Size(53, 15);
+            this.lblGaussJordan.TabIndex = 4;
+            this.lblGaussJordan.Text = "G. Jordan";
+            this.lblGaussJordan.Click += new System.EventHandler(this.label3_Click);
             // 
-            // btnConvUnid
+            // lblFormGene
             // 
-            this.btnConvUnid.BackColor = System.Drawing.Color.Transparent;
-            this.btnConvUnid.ButtonImage = ((System.Drawing.Image)(resources.GetObject("btnConvUnid.ButtonImage")));
-            this.btnConvUnid.Location = new System.Drawing.Point(31, 8);
-            this.btnConvUnid.Name = "btnConvUnid";
-            this.btnConvUnid.onHoverImage = ((System.Drawing.Image)(resources.GetObject("btnConvUnid.onHoverImage")));
-            this.btnConvUnid.Size = new System.Drawing.Size(28, 28);
-            this.btnConvUnid.TabIndex = 1;
+            this.lblFormGene.AutoSize = true;
+            this.lblFormGene.BackColor = System.Drawing.Color.Transparent;
+            this.lblFormGene.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFormGene.ForeColor = System.Drawing.Color.White;
+            this.lblFormGene.Location = new System.Drawing.Point(83, 39);
+            this.lblFormGene.Name = "lblFormGene";
+            this.lblFormGene.Size = new System.Drawing.Size(58, 15);
+            this.lblFormGene.TabIndex = 2;
+            this.lblFormGene.Text = "F. General";
+            // 
+            // lblConvertUnid
+            // 
+            this.lblConvertUnid.AutoSize = true;
+            this.lblConvertUnid.BackColor = System.Drawing.Color.Transparent;
+            this.lblConvertUnid.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConvertUnid.ForeColor = System.Drawing.Color.White;
+            this.lblConvertUnid.Location = new System.Drawing.Point(19, 39);
+            this.lblConvertUnid.Name = "lblConvertUnid";
+            this.lblConvertUnid.Size = new System.Drawing.Size(53, 15);
+            this.lblConvertUnid.TabIndex = 1;
+            this.lblConvertUnid.Text = "Unidades";
             // 
             // header
             // 
@@ -200,14 +213,53 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Kit básico de Ingeniería";
             // 
-            // conversion_de_Unidades1
+            // converUnidades
             // 
-            this.conversion_de_Unidades1.AutoScroll = true;
-            this.conversion_de_Unidades1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.conversion_de_Unidades1.Location = new System.Drawing.Point(0, 44);
-            this.conversion_de_Unidades1.Name = "conversion_de_Unidades1";
-            this.conversion_de_Unidades1.Size = new System.Drawing.Size(359, 397);
-            this.conversion_de_Unidades1.TabIndex = 2;
+            this.converUnidades.AutoScroll = true;
+            this.converUnidades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.converUnidades.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.converUnidades.Location = new System.Drawing.Point(500, 46);
+            this.converUnidades.Name = "converUnidades";
+            this.converUnidades.Size = new System.Drawing.Size(385, 401);
+            this.converUnidades.TabIndex = 2;
+            this.converUnidades.Visible = false;
+            // 
+            // formGene
+            // 
+            this.formGene.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.formGene.Location = new System.Drawing.Point(500, 46);
+            this.formGene.Name = "formGene";
+            this.formGene.Size = new System.Drawing.Size(359, 397);
+            this.formGene.TabIndex = 3;
+            this.formGene.Visible = false;
+            // 
+            // gaussJordan
+            // 
+            this.gaussJordan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.gaussJordan.Location = new System.Drawing.Point(500, 46);
+            this.gaussJordan.Name = "gaussJordan";
+            this.gaussJordan.Size = new System.Drawing.Size(359, 397);
+            this.gaussJordan.TabIndex = 4;
+            this.gaussJordan.Visible = false;
+            // 
+            // calculadora
+            // 
+            this.calculadora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.calculadora.Location = new System.Drawing.Point(500, 46);
+            this.calculadora.Name = "calculadora";
+            this.calculadora.Size = new System.Drawing.Size(359, 397);
+            this.calculadora.TabIndex = 5;
+            this.calculadora.Visible = false;
+            // 
+            // fisica
+            // 
+            this.fisica.AutoScroll = true;
+            this.fisica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            this.fisica.Location = new System.Drawing.Point(500, 46);
+            this.fisica.Name = "fisica";
+            this.fisica.Size = new System.Drawing.Size(376, 397);
+            this.fisica.TabIndex = 6;
+            this.fisica.Visible = false;
             // 
             // home
             // 
@@ -215,9 +267,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(359, 500);
-            this.Controls.Add(this.conversion_de_Unidades1);
+            this.Controls.Add(this.fisica);
+            this.Controls.Add(this.calculadora);
+            this.Controls.Add(this.gaussJordan);
+            this.Controls.Add(this.formGene);
             this.Controls.Add(this.header);
             this.Controls.Add(this.footer);
+            this.Controls.Add(this.converUnidades);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "home";
@@ -225,6 +281,11 @@
             this.Text = "Form1";
             this.footer.ResumeLayout(false);
             this.footer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFisica)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFormGene)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCalculadora)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnConvertUnid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGaussJordan)).EndInit();
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
             this.ResumeLayout(false);
@@ -234,19 +295,23 @@
         #endregion
 
         private System.Windows.Forms.Panel footer;
-        private Controles.Button btnConvUnid;
-        private System.Windows.Forms.Label label5;
-        private Controles.Button btnUnidFisic;
-        private System.Windows.Forms.Label label4;
-        private Controles.Button btnCalculadora;
-        private System.Windows.Forms.Label label3;
-        private Controles.Button btnGaussJordan;
-        private System.Windows.Forms.Label label2;
-        private Controles.Button btnFrmGene;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblFisica;
+        private System.Windows.Forms.Label lblCalculadora;
+        private System.Windows.Forms.Label lblGaussJordan;
+        private System.Windows.Forms.Label lblFormGene;
+        private System.Windows.Forms.Label lblConvertUnid;
         private System.Windows.Forms.Panel header;
         private System.Windows.Forms.Label label6;
-        private Conversion_de_Unidades conversion_de_Unidades1;
+        private Conversion_de_Unidades converUnidades;
+        private Formula_General formGene;
+        private Gauss_Jordan gaussJordan;
+        private Calculadora calculadora;
+        private Fisica fisica;
+        private System.Windows.Forms.PictureBox btnConvertUnid;
+        private System.Windows.Forms.PictureBox btnFormGene;
+        private System.Windows.Forms.PictureBox btnFisica;
+        private System.Windows.Forms.PictureBox btnCalculadora;
+        private System.Windows.Forms.PictureBox btnGaussJordan;
     }
 }
 
