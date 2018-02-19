@@ -35,6 +35,7 @@ namespace KitIngeniero
                 // Muestra los resultados
                 lblX1.Text = x[0].ToString();
                 lblX2.Text = x[1].ToString();
+                label9.Text = "";
             }
             catch (Exception)
             {
