@@ -37,6 +37,9 @@
     <Reference Include="Controles">
       <HintPath>..\..\..\..\..\Videos\Controles.dll</HintPath>
     </Reference>
+    <Reference Include="formulaGeneral">
+      <HintPath>..\..\..\..\Google Drive\Escuela\Semestre 8\Prog. lógica y funcional\Tareas\FormulaGeneralLib\formulaGeneral\bin\Debug\formulaGeneral.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
