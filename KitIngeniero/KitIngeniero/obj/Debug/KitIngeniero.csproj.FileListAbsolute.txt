@@ -37,6 +37,23 @@ C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\D
 C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
 C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Conversion_de_Unidades.resources
 C:\Users\Vinyl\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Fisica.resources
+<<<<<<< HEAD
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe.config
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.pdb
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.csprojResolveAssemblyReference.cache
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Calculadora.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Conversion_de_Unidades.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Fisica.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.home.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Formula_General.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Gauss_Jordan.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.Properties.Resources.resources
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.csproj.GenerateResource.Cache
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.csproj.CoreCompileInputs.cache
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
+=======
 C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe.config
 C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
 C:\Users\Mavis\Documents\github\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
@@ -57,3 +74,5 @@ C:\Users\WIKI\Desktop\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\obj\Debug\KitIn
 C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\bin\Debug\KitIngeniero.exe.config
 C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
 C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
+>>>>>>> upstream/master
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\formulaGeneral.pdb
