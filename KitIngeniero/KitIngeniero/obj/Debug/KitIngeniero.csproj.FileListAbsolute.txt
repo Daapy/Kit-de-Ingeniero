@@ -75,3 +75,4 @@ C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\bin\
 C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.exe
 C:\Users\Mavis\Documents\github\Kit-de-Ingenieros\KitIngeniero\KitIngeniero\obj\Debug\KitIngeniero.pdb
 >>>>>>> upstream/master
+C:\Users\Raúl Cortés\Documents\GitHub\Kit-de-Ingeniero\KitIngeniero\KitIngeniero\bin\Debug\formulaGeneral.pdb
