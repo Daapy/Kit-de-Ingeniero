@@ -53,12 +53,18 @@ namespace KitIngeniero
             txbA.Text = "";
             txbB.Text = "";
             txbC.Text = "";
+            lblError.Text = "ERROR";
         }
         #endregion
 
         private void btnResvrMatriz_Click(object sender, EventArgs e)
         {
+            calculo();
+        }
 
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            limpiar();
         }
     }
 }
